@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="Bg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bmiapp.FXMLChartController">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="191.0" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="vCtrls" prefHeight="383.0" prefWidth="191.0">
+               <children>
+                  <TextField nodeOrientation="LEFT_TO_RIGHT">
+                     <font>
+                        <Font name=".VnArial" size="15.0" />
+                     </font></TextField>
+                  <TextField />
+                  <TextField />
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#themHandler" text="Thêm" />
+                  <Button mnemonicParsing="false" onAction="#veHandler" text="Vẽ biểu đồ" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <StackPane fx:id="pChart" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

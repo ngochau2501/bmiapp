@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2020, 7:20:29 AM
+    Author     : Admin
+*/
+
+.Bg {
+    -fx-background-color: darkblue;
+    -fx-padding: 10;
+}
+
+Text.Subject {
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
+    -fx-fill: gold;
+    -fx-stroke: red;
+    -fx-stroke-width: 2;
+}
+
+Button {
+    -fx-background-color: red;
+    -fx-text-fill: gold;
+}
+
+HBox, VBox {
+    -fx-spacing:5;
+}
