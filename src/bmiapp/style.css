@@ -19,6 +19,7 @@ Text.Subject {
     -fx-fill: gold;
     -fx-stroke: red;
     -fx-stroke-width: 2;
+    -fx-background-color: red;
 }
 
 Button {
